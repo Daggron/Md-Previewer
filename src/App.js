@@ -24,11 +24,7 @@ class App extends React.Component {
     return (
       <div>
         <Textinput onChange={this.hadleInput.bind(this)} value={this.state.input} />
-        <TextOutput>
-          {
-            this.state.input
-          }
-        </TextOutput>
+        <TextOutput value={this.state.input} />
       </div>
     )
   }
