@@ -6,7 +6,7 @@ function  Textinput(props) {
 
     return(
         <div className="type-box">
-            <textarea  onChange={props.onChange} name="input" rows="10" cols="40">
+            <textarea placeholder="Enter Markdowns here" onChange={props.onChange} name="input" rows="10" cols="40">
 
             </textarea>
             

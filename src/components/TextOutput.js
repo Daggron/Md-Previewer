@@ -2,7 +2,6 @@ import React from 'react';
 
 import Marked from 'marked';
 
-const fs =  require('fs'); 
 
 function TextOutput(props) {
 
