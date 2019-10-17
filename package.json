@@ -3,10 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "fs": "0.0.1-security",
+    "fs-react": "0.0.4",
     "marked": "^0.7.0",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
-    "react-scripts": "3.2.0"
+    "react-scripts": "3.2.0",
+    "write-file-p": "^1.0.7"
   },
   "scripts": {
     "start": "react-scripts start",

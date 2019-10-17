@@ -2,6 +2,7 @@ import React from 'react';
 
 import Marked from 'marked';
 
+const fs =  require('fs'); 
 
 function TextOutput(props) {
 
@@ -9,13 +10,12 @@ function TextOutput(props) {
         return {__html: a};
     }
 
-
+    
     return(
-        <div className="App">
-            {/* {
-                props.value
-            } */}
-            <div dangerouslySetInnerHTML={makeItUp(Marked(props.value))} /> 
+        <div className="output">
+           
+
+            <div  dangerouslySetInnerHTML={makeItUp(Marked(props.value))} /> 
             
         </div>
     )
